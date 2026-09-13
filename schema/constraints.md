@@ -9,8 +9,8 @@
 | `first_name NOT NULL` | A user's first name is required. |
 | `last_name NOT NULL` | A user's last name is required. |
 | `dob NOT NULL` | A date of birth is required for every user, allowing age determination if/when needed. |
-| `account_creation_date NOT NULL` | Every user account must have a recorded creation date for business data. |
-| `account_creation_date DEFAULT CURRENT_TIMESTAMP` | Automatically records when the account was created if no value is provided. |
+| `account_creation_dt NOT NULL` | Every user account must have a recorded creation date for business data. |
+| `account_creation_dt DEFAULT CURRENT_TIMESTAMP` | Automatically records when the account was created if no value is provided. |
 
 ### POSTS
 
