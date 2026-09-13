@@ -10,7 +10,7 @@ USERS (
     email,
     phone,
     dob,
-    account_creation_date
+    account_creation_dt
 )
 
 POSTS (
@@ -50,8 +50,8 @@ POST_HASHTAGS (
 
 ### **Domains**
 
-| Relation | Attribute | Domain | Constraints |
-|---|---|---|---|
+| Relation | Attribute | Domain | 
+|---|---|---|
 | **USERS** | `user_id` | `INTEGER` |
 | | `username` | `VARCHAR` |
 | | `first_name` | `VARCHAR` |
@@ -59,7 +59,7 @@ POST_HASHTAGS (
 | | `email` | `VARCHAR` |
 | | `phone` | `VARCHAR` |
 | | `dob` | `DATE` |
-| | `account_creation_date` | `TIMESTAMP` |
+| | `account_creation_dt` | `TIMESTAMP` |
 | **POSTS** | `post_id` | `INTEGER` |
 | | `user_id` | `INTEGER` |
 | | `content` | `VARCHAR` |
