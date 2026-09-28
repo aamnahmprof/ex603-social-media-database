@@ -12,3 +12,11 @@ This system is meant to be able to answer various questions about users, their p
 
 # Entity Relationship Diagram
 ![ERD](schema/erd.drawio.png)
+
+## Schema Definiton
+
+users stores information about each user, including their username, name, email, phone number, date of birth, and account creation date. Each user is identified by the user_id primary key.
+posts stores content created by users. Each post belongs to one user through user_id, and the table also tracks whether the post is active, its view count, and when it was created.
+hashtags stores unique hashtags that can be associated with posts. Each hashtag is identified by hashtag_id, while hashtag_name must be unique.
+post_hashtags is a junction table connecting posts and hashtags. This allows one post to have multiple hashtags and one hashtag to be used on multiple posts. The combination of post_id and hashtag_id forms the composite primary key, preventing the same hashtag from being associated with the same post more than once.
+likes records which users have liked which posts. Its composite primary key of post_id and user_id prevents a user from liking the same post more than once. It also records when the like occurred and the user's dwell time in milliseconds
