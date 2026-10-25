@@ -1,3 +1,5 @@
+# Unit 3 Findings
+
 The dashboard reported that about half of all reactions were in a failure state, which led to the decision to freeze creator monetization payouts. However, the data contains three different reaction statuses: active, flagged, and removed. These statuses do not all mean the same thing, and a flagged reaction should not automatically be treated as a failed reaction. The dataset contains 200 reactions, so the reported failure rate needs to be checked against the actual status counts before it can be considered accurate.
 
 The investigation found that SQL filters can leave out records when a value is missing, even when the query runs without an error. In this dataset, many reactions have no removal reason recorded. The original filter excluded these records without making it clear that they had been left out. The issue came from how the query handled missing values, rather than an error message that would have alerted the team. The query also needs to be checked to make sure the statuses are being counted correctly and that the results match the data.

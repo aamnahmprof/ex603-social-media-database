@@ -1,0 +1,7 @@
+# Unit 4 Findings
+
+The results show that the number of removed likes varies between posts. Post 11 had the greatest number of removed likes at 5, followed by posts 6 and 9, which both had 4. These are the first posts I would investigate further, as they have the highest number of removed likes in the dataset. However, this does not necessarily mean that their producers have the highest failure rates.
+
+To find the true failure rate, I would need to compare the number of removed likes to the total number of likes. This is important because a post with more removed likes could simply have a greater number of total reactions. Looking at the percentage instead would make it easier to compare performance fairly.
+
+I would also want to see these results grouped by producer rather than just by post. This would help identify whether certain producers consistently have more removed likes than others. Based on the current results, I would investigate the producers responsible for posts 11, 6, and 9 first, but I would need to see the producer identifiers and their overall failure rates before making a final decision. This would provide leadership with a better idea of where to focus further investigation.
