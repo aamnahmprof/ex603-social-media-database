@@ -27,10 +27,10 @@ likes records which users have liked which posts. Its composite primary key of p
 
 | Query | SQL file | Business question |
 | --- | --- | --- |
-| 4.1.1 | [q4_1.sql](unit4/q4_1.sql) | What are the overall dwell-time statistics, and how many distinct users have liked posts? |
-| 4.1.2 | [q4_1.sql](unit4/q4_1.sql) | How many likes has each post received, and what is its average dwell time? |
-| 4.1.3 | [q4_1.sql](unit4/q4_1.sql) | Among posts with at least 10 likes, how do like counts and average dwell times compare? |
-| 4.1.4 | [q4_1.sql](unit4/q4_1.sql) | How do post like counts and average dwell times vary by author country and media type? |
-| 4.2.A | [q4_2.sql](unit4/q4_2.sql) | How many likes has each post received, and how many of those likes were removed? |
-| 4.2.B | [q4_2.sql](unit4/q4_2.sql) | How many likes were received for posts by each author country, and what is the overall total? |
-| 4.2.C | [q4_2.sql](unit4/q4_2.sql) | Which posts have at least 75% of the dataset's maximum like count? |
+| 4.1.1 | [q4_1.sql](queries/unit4/q4_1.sql) | What are the overall dwell-time statistics, and how many distinct users have liked posts? |
+| 4.1.2 | [q4_1.sql](queries/unit4/q4_1.sql) | How many likes has each post received, and what is its average dwell time? |
+| 4.1.3 | [q4_1.sql](queries/unit4/q4_1.sql) | Among posts with at least 10 likes, how do like counts and average dwell times compare? |
+| 4.1.4 | [q4_1.sql](queries/unit4/q4_1.sql) | How do post like counts and average dwell times vary by author country and media type? |
+| 4.2.A | [q4_2.sql](queries/unit4/q4_2.sql) | How many likes has each post received, and how many of those likes were removed? |
+| 4.2.B | [q4_2.sql](queries/unit4/q4_2.sql) | How many likes were received for posts by each author country, and what is the overall total? |
+| 4.2.C | [q4_2.sql](queries/unit4/q4_2.sql) | Which posts have at least 75% of the dataset's maximum like count? |
