@@ -1,9 +1,3 @@
--- Actor: Users
--- Event: Likes
--- Producer: Posts
--- Catalog: Hashtags
--- Metric: Dwell ms
-
 -- 5.1.1
 -- Write a query that joins three tables to display the user who 'gave' each like, the post that was liked, and the date and time the like occurred.
 SELECT

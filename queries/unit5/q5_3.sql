@@ -1,9 +1,3 @@
--- Actor: Users
--- Event: Likes
--- Producer: Posts
--- Catalog: Hashtags
--- Metric: Dwell ms
-
 -- 5.3.A
 -- Write a CROSS JOIN between two small tables.
 SELECT *

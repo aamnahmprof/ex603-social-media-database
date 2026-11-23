@@ -1,9 +1,3 @@
--- Actor: Users
--- Event: Likes
--- Producer: Posts
--- Catalog: Hashtags
--- Metric: Dwell ms
-
 -- 5.2.A
 -- Use LEFT JOIN to return all producers, including those who have never had an event.
 SELECT

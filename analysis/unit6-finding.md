@@ -1,0 +1,11 @@
+# Unit 6 Findings
+
+## This is the answer leadership has waited four weeks for.
+
+1. **Is the failure problem getting better or worse over the time your data covers?**
+
+The failure problem is not improving consistently. Engagement is highly volatile instead of showing a steady direction. The 6.3.B month-over-month query shows that monthly dwell fell 70.01% from February to March and 76.75% from May to June. It then rose 200.36% from June to July, but fell again by 20.13% from September to October and 31.72% from October to November before rising 35.52% in December. The January total was 320,360 dwell milliseconds and the December total was 370,650, so the end of the year was 15.69% higher than January, but the large dips between months mean that this net increase does not show a sustained recovery. From the 6.2.C gap query, Post 9 had the longest inactivity period at 112 days, 13 hours, and 58 minutes, followed by Post 12 at 106 days, 17 hours, and 50 minutes. These results show that repeated activity failures and high engagement volatility are still present.
+
+2. **What should the team do next quarter?**
+
+The team should begin by reviewing the posts with the longest inactivity gaps, especially Posts 9 and 12 from the 6.2.C query, to determine whether they lost visibility, were removed or changed, or stopped attracting interested users. The team should also add a data-quality check that compares recorded like events with expected event logging, because a gap could still be an event-recording failure even when the activity report looks complete. After the cause is identified, the team should promote or revise the content on the affected posts and monitor the next four weeks of dwell totals with the 6.3.B month-over-month query. A month should be considered recovering only if dwell increases without a corresponding month-over-month gap in the 6.2.C results. The team should also review the posts and likes with unusually large dwell changes using 6.2.A rather than treating every change as a content success or failure.
